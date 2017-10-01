@@ -1,0 +1,84 @@
+<view class='wrapper'>
+  <view class='avatar-bg'>
+    <view class='avatar-info'>
+    <image src='../my/images/avatar.png'></image>
+    <text>那年花开月正圆</text>
+    </view>
+ </view>
+ <!-- avatar-bg end -->
+  <view class='view-order'>
+    <text>查看订单</text>
+    <navigator>查看全部 <text>></text></navigator>
+  </view>
+  <!-- view-order end -->
+  <view class='my-counts'>
+      <navigator url="#">
+        <image src='../my/images/wait-pay.png'></image>
+        待付款
+    </navigator>
+    <navigator url="#">
+      <image src='../my/images/send-goods.png'></image>
+      待发货
+    </navigator>
+    <navigator url="#">
+      <image src='../my/images/take-goods.png'></image>
+      待收货
+      <text>61</text>
+    </navigator>
+    <navigator url="#">
+      <image src='../my/images/ended.png'></image>
+      已完成
+    </navigator>
+  </view>
+  <!-- my-counts end -->
+</view>
+
+<view class="option-box">
+  <ul>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                <image src='../my/images/my-youhuiquan.png'></image>
+                优惠劵
+                <text class="arrow">></text>
+              </p>
+          </view>
+      </a>
+    </li>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                <image src='../my/images/my-address.png'></image>
+                地址管理
+                <text class="arrow">></text>
+              </p>
+          </view>
+      </a>
+    </li>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                <image src='../my/images/my-iphone.png'></image>
+                绑定手机
+                <text class="arrow">></text>
+              </p>
+          </view>
+      </a>
+    </li>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                <image src='../my/images/my-version.png'></image>
+                版本号
+                <text class="number">2.2.0</text>
+                <text class="arrow">></text>
+              </p>
+          </view>
+      </a>
+    </li>
+  </ul>
+</view>

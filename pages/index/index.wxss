@@ -1,0 +1,111 @@
+/**index.wxss**/
+.swiper {
+  height:380rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.index-hot{
+  background:#f4f4f4;
+  padding-bottom:20rpx;
+}
+.search{
+  margin: 16rpx;
+  width: 700rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  border: #ddd solid 1px;
+  border-radius: 8rpx;
+  background: #fff;
+  padding-left:18rpx;
+ }
+ .icon{
+  display: inline-block;
+ }
+.search input{
+  color: #666;
+  width: 650rpx;
+  font-size: 24rpx;
+  vertical-align: top;
+  padding-left:10rpx;
+  display: inline-block;
+}
+.hot-area{
+   background: #fff;
+   border-bottom: #ddd solid 1rpx;
+   padding-left:60rpx;
+   width: 690rpx;
+   overflow: hidden;
+}
+.hot-area navigator{
+  width: 120rpx;
+  font-size: 28rpx;
+  text-align: center;
+  display: inline-block;
+  padding-top:38rpx;
+  padding-bottom:33rpx;
+  margin-right: 50rpx;
+}
+.hot-area image{
+  width: 88rpx;
+  height: 88rpx;
+  display: block;
+  margin: 0 auto 25rpx;
+}
+.you-like{
+  padding:20rpx;
+  width: 710rpx;
+  overflow: hidden;
+}
+.you-like .like-header{
+  text-align: left;
+  width: 100%;
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom:35rpx;
+}
+.like-cont{
+  width: 100%;
+  display: flex;
+  border-bottom:#eee solid 1px;
+  align-items: center;
+}
+.like-cont-left{
+ flex: 2;
+ overflow: hidden;
+ margin:27rpx 0;
+}
+.like-cont-left image{
+  width: 170rpx;
+  height: 180rpx;
+  float:left;
+  margin-right: 20rpx;
+}
+
+.like-left-text text{
+  display: block;
+  font-size: 32rpx;
+  color: #666;
+}
+.like-left-text .like-name{
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 18rpx;
+}
+.like-left-text .like-price{
+  color: #ff4c4c;
+  margin-top:43rpx;
+}
+.like-cont-right{
+flex: 1;
+margin:27rpx 0;
+}
+.like-cont-right image{
+  width: 88rpx;
+  height: 88rpx;
+  text-align: right;
+  margin-right:20rpx;
+  float:right;
+}

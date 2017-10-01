@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/cart/cart",
+    "pages/fenlei/fenlei",
+    "pages/index/index",
+    "pages/my/my"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"#000",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "千匠小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#437abe",
+    "borderStyle": "#bbb",
+    "backgroundColor": "#fafafa",
+    "list": [
+      
+      {
+        "selectedIconPath": "images/index_s.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/fenlei_s.png",
+        "iconPath": "images/fenlei.png",
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/cart_s.png",
+        "iconPath": "images/cart.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "images/my_s.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}
+

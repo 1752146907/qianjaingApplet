@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="container">
+ <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" indicator-active-color="{{indicatorActiveColor}}" indicator-color="{{indicatorColor}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100" height="400"/>
+    </swiper-item>
+  </block>
+</swiper>
+ <!-- swiper end -->
+ <view class='index-hot'>
+  <view class="search">
+  <icon type='search' size='15'></icon>
+  <input type='text' placeholder="搜索商品" />
+  </view>
+  <!-- search end -->
+ <view class='hot-area'>
+  <navigator url="#">
+  <image src='../../images/youhui.png'></image>
+  领优惠券</navigator>
+  <navigator url="#">
+  <image src='../../images/hot.png'></image>
+  热销商品</navigator>
+  <navigator url="#">
+  <image src='../../images/new.png'></image>
+  新品推荐</navigator>
+  <navigator url="#">
+  <image src='../../images/near-store.png'></image>
+  附近门店</navigator>
+  </view> 
+  <!-- hot area -->
+ </view>
+ <!-- index-hot end -->
+ <view class='you-like'>
+ <view class="like-header">猜你喜欢</view>
+ <view class='like-cont'>
+ <view class='like-cont-left'>
+ <image src='../../images/like-product.png'></image>
+ <view class='like-left-text'>
+  <text class='like-name'>商品名称</text>
+  <text class='like-des'>商品描述</text>
+  <text class='like-price'>￥198.00</text>
+ </view>
+ <!-- like-left-text end -->
+</view>
+<!-- like-cont-left end -->
+ <view class='like-cont-right'>
+  <image src='../../images/index-cart.png'></image>
+ </view>
+ <!-- like-cont-right end -->
+ </view>
+ <!-- like-cont end -->
+ <view class='like-cont'>
+ <view class='like-cont-left'>
+ <image src='../../images/like-product.png'></image>
+ <view class='like-left-text'>
+  <text class='like-name'>商品名称</text>
+  <text class='like-des'>商品描述</text>
+  <text class='like-price'>￥198.00</text>
+ </view>
+ <!-- like-left-text end -->
+</view>
+<!-- like-cont-left end -->
+ <view class='like-cont-right'>
+  <image src='../../images/index-cart.png'></image>
+ </view>
+ <!-- like-cont-right end -->
+ </view>
+ <!-- like-cont end -->
+ </view>
+ <!-- you-like end -->
+</view>

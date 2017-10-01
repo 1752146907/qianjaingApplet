@@ -1,0 +1,93 @@
+  <view class="container">
+  <block>
+    <view class="list-d-all">
+    <view class="send-time">
+      <checkbox class="all" />
+      <text class="mall_name">千匠商城</text>
+    </view>
+      <block>
+        <view class="list-d">
+          <view class="list-d-checked">
+            <checkbox />
+          </view>
+          <view class="list-d-pic">
+            <image src="../../images/like-product.png"></image>
+          </view>
+          <view class="list-d-con">
+            <view class="dcon-f title">
+              <view class="dcon-f-name title-name">
+                商品名称
+                <view class="dcon-f-text">我是蛋糕，好吃的蛋糕</view>
+              </view>
+            </view>
+            <view class="dcon-f">
+              <view class="dcon-f-num">￥198.00</view>
+              <view class="dcon-f-price">
+                <view class="shop-caredit">
+                  <a class="shop-carminus min" href="javascript:;">—</a>
+                  <input class="text_box" type="text" value=" 2"/>
+                  <a class="shop-caradd add" href="javascript:;">+</a>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </block>
+      <block>
+        <view class="list-d">
+          <view class="list-d-checked">
+            <checkbox />
+          </view>
+          <view class="list-d-pic">
+            <image src="../../images/like-product.png"></image>
+          </view>
+          <view class="list-d-con">
+            <view class="dcon-f title">
+              <view class="dcon-f-name title-name">
+                商品名称
+                <view class="dcon-f-text">我是蛋糕，好吃的蛋糕</view>
+              </view>
+            </view>
+            <view class="dcon-f">
+              <view class="dcon-f-num">￥198.00</view>
+              <view class="dcon-f-price">
+                <view class="shop-caredit">
+                  <a class="shop-carminus min" href="javascript:;">—</a>
+                  <input class="text_box" type="text" value=" 2"/>
+                  <a class="shop-caradd add" href="javascript:;">+</a>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </block>
+      <view class="bottom_sett">
+        <view class="bottom_list">
+          <view class="bottom_main">
+            <view class="select"><checkbox />全选</view>
+            <view class="ying">合计:<text>￥299.00</text></view>
+            <view class="settlement">去结算</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>  
+
+
+
+<view class="container">
+ <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="">
+  <view class="content">{{item.content}}</view>
+  <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+ </view>
+</view>
+
+
+<!-- 购车为空的时候 -->
+<view class="empty-cart" hidden="{{!cartStatus}}">
+  <view class="empty-img"><image src="images/cart_bg.png"></image></view>
+  <view class="empty-title">购物车快饿扁</view>
+  <view class="empty-desc">快点给挑宝贝吧</view>
+  <view class="empty-choose"><span>去逛逛</span></view>
+</view>  
