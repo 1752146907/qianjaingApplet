@@ -1,0 +1,15 @@
+<!--bind_phone.wxml-->
+<view class="box">
+  <view class="box_phome">
+    <text class="phone_num">手机号</text>
+    <input class="enter_num" placeholder="输入手机号码" auto-focus/>
+    <text class="proving">获取验证码</text>
+  </view>
+  <view class="box_code">
+    <text class="code_num">验证码</text>
+    <input class="input_code" placeholder="输入验证码" auto-focus/>
+  </view>
+</view>
+<view class="bind_but">
+  <button type="warn" bindtap="warn">绑定</button>
+</view>

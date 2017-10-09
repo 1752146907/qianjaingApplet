@@ -58,15 +58,15 @@
       </a>
     </li>
     <li>
-      <a class="access" href="javascript:;">
-          <view class="cell_primary">
-              <p>
-                <image src='../my/images/my-iphone.png'></image>
-                绑定手机
-                <text class="arrow">></text>
-              </p>
-          </view>
-      </a>
+      <navigator url="../phone/bind_phone">
+        <view class="cell_primary">
+            <p>
+              <image src='../my/images/my-iphone.png'></image>
+              绑定手机
+              <text class="arrow">></text>
+            </p>
+        </view>
+      </navigator>
     </li>
     <li>
       <a class="access" href="javascript:;">
