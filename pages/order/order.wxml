@@ -1,0 +1,89 @@
+<!--order.wxml-->
+<view class="add" hidden="{{!cartStatus}}">
+  <view class="add_main">
+    <i class="add_map"></i>添加地址
+  </view>
+</view>
+
+<view class="addressadd">
+  <view class="contact">
+    <ul class="add_name">
+      <li>陈奕迅</li>
+      <li>13984485888</li>
+    </ul>
+  </view>
+  <view class="contact">
+      <image class="add_img" src="../../images/add_img01.png"></image>
+      <text class="add_text">湖北省武汉市洪山区城区南湖大道77号 红桃K集团电商云工厂2楼</text>
+      <text class="add_arrow">></text>
+  </view>
+</view>
+<view class="addressadd_line"></view>
+
+<view class="boundary"></view>
+
+<view class="ware">
+  <view class="shop_name">千匠商城</view>
+  <view class="were_main">
+    <view class="were_img">
+      <image src="../../images/like-product.png"></image>
+    </view>
+    <view class="were_title">
+      <view class="commodity_title">商品名称商品名称商品名称商品名称商品名称</view>
+      <view class="commodity_brief">商品名称商品名称商品名称商品名称商品名称</view>
+    </view>
+    <view class="were_price">
+      <view class="were_market">¥999.00</view>
+      <view class="were_num">*1</view>
+    </view>
+  </view>
+</view>
+
+<view class="boundary"></view>
+
+<view class="min_option">
+  <view class="option_list">
+    <text>店铺活动</text>
+    <text class="option_right">
+      <text class="option_info">满200减100</text> <text class="option_arrow"> ></text>
+    </text>
+  </view>
+  <view class="option_list">
+    <text>配送方式</text>
+    <text class="option_right">
+      <text class="option_info">快递运输</text>
+    </text>
+  </view>
+  <view class="option_list">
+    <text>发票</text>
+    <text class="option_right">
+      <text class="option_info">个人(纸质发票)明细</text> <text class="option_arrow"> ></text>
+    </text>
+  </view>
+  <view class="option_list">
+    <view class="option_money">
+      <text>商品金额</text>
+      <text class="option_right">
+        <text class="option_info">¥198.00</text>
+      </text>
+    </view>
+    <view class="option_money">
+      <text>运费</text>
+      <text class="option_right">
+        <text class="option_info">¥ 0.00</text>
+      </text>
+    </view>
+    <view class="option_money">
+      <text>优惠金额</text>
+      <text class="option_right">
+        <text class="option_info">¥0.00</text>
+      </text>
+    </view>
+  </view>
+  <view class="pay_amount">
+    实付金额: <text class="sum">¥198.00</text>
+  </view>
+</view>
+<view class="wei_pay">
+  <button type="primary">微信支付</button>
+</view>

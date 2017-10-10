@@ -1,0 +1,191 @@
+/* order.wxss */
+page{
+  background: #fff;
+}
+.boundary{
+  height: 20rpx;
+  background: #f0f0f0;
+}
+.add{
+  padding: 20rpx 30rpx;
+  background: #fff;
+}
+.add_main{
+  border: 1rpx dashed #ddd;
+  text-align: center;
+  padding: 38rpx 0rpx;
+  color: #666;
+  font-size: 35rpx;
+}
+.add_map{
+  width: 48rpx;
+  height: 48rpx;
+  display: inline-block;
+  vertical-align: bottom;
+  background-image: url(../../images/add_img.png);
+  background-size: 100% 100%;
+  margin-right: 10rpx;
+}
+.add_img{
+  width: 40rpx;
+}
+.addressadd{
+  height: 160rpx;
+  padding: 20rpx;
+  position: relative;
+}
+.addressadd_line{
+  height: 8rpx;
+  background-image: url(../../images/order_line.png);
+  background-size: 100% 100%;
+}
+.addressadd .contact{
+  position: relative;
+  margin-bottom: 28rpx;
+}
+.add_name{
+  padding-left: 70rpx;
+  font-weight: bold;
+}
+.add_name li:last-child{
+  padding-left: 40rpx;
+}
+.add_img{
+  width: 36rpx;
+  height: 48rpx;
+  position: absolute;
+  left:10rpx;
+}
+.add_text{
+  position: absolute;
+  left:18rpx;
+  right: 50rpx;
+  color: #444444;
+  font-size: 34rpx;
+  padding-left: 50rpx;
+  display: inline-block;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+.add_arrow{
+  position: absolute;
+  right: 0rpx;
+}
+
+
+.were{}
+.shop_name{
+  padding: 30rpx;
+  background: #fafafa;
+  font-size: 34rpx;
+  color: #222;
+  border-top: solid 1rpx #ddd;
+}
+.were_main{
+  background: #fff;
+  padding: 0rpx 30rpx;
+  position: relative;
+  min-height: 230rpx;
+  border-bottom:solid 1rpx #ddd;
+}
+.were_img{
+  width: 180rpx;
+  height: 180rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 30rpx;
+}
+.were_img image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.were_title{
+  position: absolute;
+  left: 226rpx;
+  right: 146rpx;
+  top: 30rpx;
+}
+.commodity_title{
+  font-size: 38rpx;
+  line-height: 58rpx;
+  font-weight: bold;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.commodity_brief{
+  color: #666;
+  font-size: 34rpx;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.were_price{
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+}
+.were_market{
+  color: red;
+  font-size: 34rpx;
+}
+.were_num{
+  color: #222;
+  font-size: 34rpx;
+}
+.min_option{
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 0rpx 20rpx 20rpx 20rpx; 
+  font-size: 34rpx;
+}
+.option_list{
+  position: relative;
+  padding: 20rpx 0rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.option_right{
+  position: absolute;
+  right: 0rpx;
+  color: #797979;
+  font-size: 30rpx;
+}
+.option_info{
+  color: #999999;
+  position: relative;
+  right: 28rpx;
+}
+.option_money {
+  margin-bottom: 14rpx;
+}
+.option_money:last-child{
+  margin-bottom: 0rpx;
+}
+.option_money .option_info{
+  color: red;
+  position: relative;
+  right: 28rpx;
+  font-size: 34rpx;
+}
+.option_arrow{
+  position: absolute;
+  right: 0rpx;
+}
+.pay_amount{
+  text-align: right;
+  padding-top: 20rpx;
+  padding-right: 20rpx;
+}
+.pay_amount .sum{
+  color: red;
+}
+.wei_pay{
+  font-size: 32rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+}
