@@ -54,8 +54,8 @@ page{
   height: 38rpx;
 }
 .checkbox_li .wx-checkbox-input-checked{
-   background: #ff4c4c;
-   color: white;
+  background:url(images/checkbox.png) left top no-repeat;
+  background-size: 100% 100%;
 }
 .send-time wx:checkbox{
   border:red solid 1rpx;

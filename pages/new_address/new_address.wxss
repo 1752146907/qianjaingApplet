@@ -1,0 +1,72 @@
+/* new_address.wxss */
+page{
+  background: #f0f0f0;
+}
+
+.box{
+  padding: 20rpx;
+  background: #fff;
+}
+.box_option{
+  position: relative;
+  height: 70rpx;
+  padding-top: 30rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.box_option:last-child{
+  border-bottom: none;
+}
+.box_textarea{
+  height: 110rpx;
+}
+.option_name{
+  position: absolute;
+  left: 0rpx;
+  font-size: 30rpx;
+}
+.enter_val{
+  position: absolute;
+  left: 138rpx;
+  right: 20rpx;
+  top: 18rpx;
+  font-size: 30rpx;
+}
+.textarea_val{
+  height: 100rpx;
+  position: absolute;
+  left: 138rpx;
+  right: 20rpx;
+  top: 29rpx;
+  font-size: 36rpx;
+}
+.textarea_val textarea{
+  height: 100rpx;
+  width: 14.3rem;
+  font-size: 30rpx;
+}
+.proving{
+  position: absolute;
+  right: 0rpx;
+  font-size: 32rpx;
+  color: #ff4c4c;
+  padding: 10rpx 30rpx;
+  border-left: 1rpx solid #ddd;
+}
+.box_phone{
+  position: relative;
+  height: 70rpx;
+  padding-top: 30rpx;
+}
+.phone_num{
+  position: absolute;
+  left: 0rpx;
+}
+.input_phone{
+  position: absolute;
+  left: 169rpx;
+  font-size: 36rpx;
+}
+
+.confirm{
+  padding: 40rpx 20rpx 20rpx 20rpx;
+}

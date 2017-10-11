@@ -1,0 +1,137 @@
+<!--order_details.wxml-->
+<!-- 待支付状态 -->
+<view hidden="{{!cartStatus}}">
+  <view class="state">
+    <view class="state_opt">
+      <text>状态：</text>待支付
+    </view>
+    <view class="state_opt">
+      <text>订单编号：</text>20171019
+    </view>
+    <view class="state_opt">
+      <text>下单时间：</text>2017-10-19
+    </view>
+  </view>
+  <view class="but">
+    <button type="warn">去支付</button>
+  </view>
+  <view class="but">
+    <button type="default">申请取消订单</button>
+  </view>
+</view>
+<!-- 订单取消状态 -->
+<view hidden="{{!cartStatus}}">
+  <view class="state">
+    <view class="state_opt">
+      您的订单已取消！
+      <view class="state_sub">订单取消成功！</view>
+    </view>
+    <view class="state_opt">
+      <text>状态：</text>已完成
+    </view>
+    <view class="state_opt">
+      <text>订单编号：</text>20171019
+    </view>
+    <view class="state_opt">
+      <text>下单时间：</text>2017-10-19
+    </view>
+  </view>
+  <view class="but">
+    <button type="default">再次购买</button>
+  </view>
+</view>
+<!-- 订单成功状态 -->
+<view>
+  <view class="state">
+    <view class="state_opt">
+      <view class="succ_log">
+        <view class="state_opt_text">
+          【武汉市】您的订单已签收。感谢您在千匠商场购物，欢迎再次光临。
+        </view>
+        <view class="state_opt_arr">></view>
+      </view>
+      <view class="state_sub">2017-09-14 12:28:09</view>
+    </view>
+    <view class="state_opt">
+      <text>状态：</text>已完成
+    </view>
+    <view class="state_opt">
+      <text>订单编号：</text>20171019
+    </view>
+    <view class="state_opt">
+      <text>下单时间：</text>2017-10-19
+    </view>
+  </view>
+  <view class="but">
+    <button type="default">再次购买</button>
+  </view>
+</view>
+
+<view class="side_line"></view>
+
+<view class="info">
+  <view class="info_opt">
+    <text class="info_tit">商品金额：</text>
+    <text class="info_depict cor_red">¥198.00 <text class="pay_mode">(在线支付)</text></text>
+  </view>
+  <view class="info_opt">
+    <text class="info_tit">收货地址：</text>
+    <text class="info_depict add">湖北省武汉市洪山区城区南湖大道77号红桃K集团 电商云工厂2楼</text>
+  </view>
+  <view class="info_opt">
+    <text class="info_tit">收货人：</text>
+    <text class="info_depict">梁朝伟 185****5386</text>
+  </view>
+  <view class="info_opt">
+    <text class="info_tit">发票信息：</text>
+    <text class="info_depict">¥198.00(在线支付)</text>
+  </view>
+</view>
+
+<view class="side_line"></view>
+
+<view class="shop">
+  <text class="shop_name">千匠商城</text>
+  <text class="shop_num">共计1件商品</text>
+</view>
+<view class="ware">
+  <view class="ware_img">
+    <image src="../../images/like-product.png"></image>
+  </view>
+  <view class="ware_des">
+    <view class="ware_name">我是谭均</view>
+    <view class="ware_subtitle">
+      我是谭均我是谭均我是谭均我是谭均
+      我是谭均我是谭均我是谭均我是谭均
+      我是谭均我是谭均我是谭均我是谭均
+    </view>
+    <view class="ware_peic">¥198.00</view>
+    <view class="ware_num">*1</view>
+  </view>
+</view>
+
+<view class="side_line"></view>
+
+<view class="but_price">
+  <view class="but_price_opt">
+    <text class="but_price_tit">商品金额</text>
+    <text class="but_price_spe">¥198.00</text>
+    <view class="reset"></view>
+  </view>
+  
+  <view class="but_price_opt">
+    <text class="but_price_tit">运费</text>
+    <text class="but_price_spe">¥198.00</text>
+    <view class="reset"></view>
+  </view>
+
+  <view class="but_price_opt">
+    <text class="but_price_tit">优惠劵</text>
+    <text class="but_price_spe">¥198.00</text>
+    <view class="reset"></view>
+  </view>
+</view>
+
+<view class="paid">
+  <view class="paid_price">实付金额：<text class="paid_price_sun">¥198.00</text></view>
+</view>

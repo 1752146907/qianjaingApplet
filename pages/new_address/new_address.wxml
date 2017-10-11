@@ -1,0 +1,28 @@
+<!--new_address.wxml-->
+<view class="box">
+  <view class="box_option">
+    <text class="option_name">联系人</text>
+    <input class="enter_val" placeholder="请输入联系人" auto-focus/>
+  </view>
+  <view class="box_option">
+    <text class="option_name">手机号码</text>
+    <input class="enter_val" placeholder="请输入手机号码" />
+  </view>
+  <view class="box_option">
+    <text class="option_name">选中地区</text>
+    <input class="enter_val" placeholder="请输入地区" />
+  </view>
+  <view class="box_option box_textarea">
+    <text class="option_name">详细地址</text>
+    <view class="textarea_val">
+      <textarea class="weui-textarea" placeholder="请输入详细地址" />
+    </view>
+  </view>
+  <view class="box_option">
+    <text class="option_name">邮政编码</text>
+    <input class="enter_val" placeholder="请输入邮政编码" />
+  </view>
+</view>
+<view class="confirm">
+  <button type="primary">确认</button>
+</view>

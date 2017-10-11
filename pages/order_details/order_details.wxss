@@ -1,0 +1,176 @@
+/* order_details.wxss */
+.reset{
+  clear: both;
+}
+.state{
+  padding: 16rpx 20rpx;
+  border-top: 1rpx solid #bbbbbb;
+  margin-bottom: 20rpx;
+}
+.state_opt{
+  color: #222;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.state_opt .state_sub{
+  border-bottom: 1rpx solid #eee;
+  color: #999;
+  padding-bottom: 8rpx;
+  margin-bottom: 10rpx;
+}
+.succ_log{
+  height: 88rpx;
+  position: relative;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.state_opt_text{
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  right: 80rpx;
+}
+.state_opt_arr{
+  position: absolute;
+  top: 40rpx;
+  right: 0rpx;
+}
+.state_opt:last-child{
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #ddd;
+
+}
+.state_opt text{
+  color: #999999;
+}
+.but{
+  padding: 0rpx 20rpx 20rpx 20rpx;
+}
+
+.side_line{
+  background: #f0f0f0;
+  height: 20rpx;
+}
+
+.info{
+  padding: 20rpx;
+}
+.info_opt{
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 8rpx;
+}
+.cor_red{
+  color: #ff4c4c !important;
+}
+.pay_mode{
+  color: #999999;
+}
+.info_tit{
+  width: 140rpx;
+  display: inline-block;
+}
+.add{
+  height: 70rpx;
+  padding-left: 140rpx;
+  display: inline-block;
+  margin-top: -30rpx;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.info_depict{
+  color: #222;
+}
+
+.shop{
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #222222;
+  background: #fafafa;
+}
+.shop_num{
+  float: right;
+  color: #999;
+}
+
+.ware{
+  height: 178rpx;
+  position: relative;
+  background: #fff;
+  padding: 0rpx 20rpx 20rpx 20rpx;
+}
+.ware_img{
+  position: absolute;
+  left: 20rpx;
+}
+.ware_img image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.ware_des{
+  position: absolute;
+  left: 220rpx;
+  right: 20rpx;
+  padding-top: 20rpx;
+}
+.ware_name{
+  font-size: 32rpx;
+  color: #222;
+  font-weight: bold;
+}
+.ware_subtitle{
+  font-size: 26rpx;
+  color: #666666;
+  margin: 10rpx 0rpx;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.ware_peic{
+  font-size: 32rpx;
+  color: #ff4c4c;
+}
+.ware_num{
+  font-size: 32rpx;
+  text-align: right;
+  color: #222222;
+  position: relative;
+  top: -30rpx;
+}
+
+.but_price{
+  padding: 20rpx;
+  color: #222222;
+  font-size: 28rpx;
+}
+.but_price_opt{
+  line-height: 40rpx;
+}
+.but_price_tit{
+  float: left;
+}
+.but_price_spe{
+  float: right;
+  color: #ff4c4c;
+}
+.paid{
+  padding: 20rpx;
+  font-size: 32rpx;
+}
+.paid_price{
+  padding-top: 20rpx;
+  text-align: right;
+  border-top: 1rpx solid #eee;
+}
+.paid_price_sun{
+  color: #ff4c4c;
+  font-weight: bold;
+}

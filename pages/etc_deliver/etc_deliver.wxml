@@ -1,0 +1,72 @@
+<!--etc_deliver.wxml-->
+<view class="nav">
+  <ul>
+    <li>全部订单</li>
+    <li>待付款</li>
+    <li class="nav_li_act">待发货</li>
+    <li>待收货</li>
+    <li>已完成</li>
+  </ul>
+</view>
+<view class="describe">
+  <view class="describe_box">
+    <view class="describe_opt">
+      <text class="describe_title">状态：</text>
+      <text class="describe_state">待发货</text>
+    </view>
+    <view class="describe_opt">
+      <text class="describe_title">总价：</text>
+      <text class="describe_sum">¥198.00</text>
+    </view>
+    <view class="describe_opt">
+      <text class="describe_title">订单编号：</text>
+      <text class="describe_state">2017081000990</text>
+    </view>
+  </view>
+</view>
+<view class="ware">
+  <view class="ware_img">
+    <image src="../../images/like-product.png"></image>
+  </view>
+  <view class="ware_des">
+    <view class="ware_name">我是谭均</view>
+    <view class="ware_subtitle">
+      我是谭均我是谭均我是谭均我是谭均
+      我是谭均我是谭均我是谭均我是谭均
+      我是谭均我是谭均我是谭均我是谭均
+    </view>
+    <view class="ware_peic">¥198.00</view>
+    <view class="ware_num">*1</view>
+  </view>
+</view>
+<view class="describe">
+  <view class="describe_box">
+    <view class="describe_opt">
+      <text class="describe_title">状态：</text>
+      <text class="describe_state">待发货</text>
+    </view>
+    <view class="describe_opt">
+      <text class="describe_title">总价：</text>
+      <text class="describe_sum">¥198.00</text>
+    </view>
+    <view class="describe_opt">
+      <text class="describe_title">订单编号：</text>
+      <text class="describe_state">2017081000990</text>
+    </view>
+  </view>
+</view>
+<view class="ware">
+  <view class="ware_img">
+    <image src="../../images/like-product.png"></image>
+  </view>
+  <view class="ware_des">
+    <view class="ware_name">我是谭均</view>
+    <view class="ware_subtitle">
+      我是谭均我是谭均我是谭均我是谭均
+      我是谭均我是谭均我是谭均我是谭均
+      我是谭均我是谭均我是谭均我是谭均
+    </view>
+    <view class="ware_peic">¥198.00</view>
+    <view class="ware_num">*1</view>
+  </view>
+</view>

@@ -1,0 +1,90 @@
+/* address_sele.wxss */
+page{
+  background: #f0f0f0;
+}
+
+.title{
+  padding: 0rpx 20rpx;
+  background: #fff;
+}
+.title_box{
+  padding: 20rpx 0rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 30rpx;
+}
+
+.main{
+  padding: 20rpx 20rpx 0rpx 20rpx;
+  background: #fff;
+}
+.main ul li{
+  display: block;
+  position: relative;
+  height: 130rpx;
+  margin-bottom: 20rpx; 
+  border-bottom: 1rpx #eeeeee solid;
+}
+.main ul li:last-child{
+  margin-bottom: 0rpx; 
+  border-bottom: none;
+}
+.main ul li .li_checked{
+  width: 40rpx;
+  position: absolute;
+  left: 0rpx;
+}
+.checkbox_li{
+  line-height: 68rpx;
+}
+.checkbox_li .wx-checkbox-input{
+  border-radius: 50%;
+  width: 38rpx;
+  height: 38rpx;
+}
+.checkbox_li .wx-checkbox-input-checked{
+  background:url(../../images/checkbox.png) left top no-repeat;
+  background-size: 100% 100%;
+}
+.main ul li .li_info{
+  position: absolute;
+  left: 64rpx;
+  right: 80rpx;
+}
+.info_title{
+  font-size: 30rpx;
+  font-weight: bold;
+  padding-bottom: 20rpx;
+}
+.info_name{
+  margin-right: 20rpx;
+}
+.info_tel{}
+.info_text{
+  color: #444444;
+  font-size: 26rpx;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.main ul li .li_edit{
+  width: 60rpx;
+  position: absolute;
+  right: 0rpx;
+  font-size: 26rpx;
+  color: #ff4c4c;
+  line-height: 106rpx;
+}
+.new_add{
+  color: #ff4c4c;
+  background: #fff;
+  text-align: center;
+  border-top: #dddddd 1rpx solid;
+  font-size: 32rpx;
+  padding: 20rpx 0rpx;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 100%;
+}

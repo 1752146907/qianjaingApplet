@@ -12,20 +12,20 @@
   </view>
   <!-- view-order end -->
   <view class='my-counts'>
-      <navigator url="#">
+      <navigator url="../etc_deliver/etc_deliver">
         <image src='../my/images/wait-pay.png'></image>
         待付款
     </navigator>
-    <navigator url="#">
+    <navigator url="../etc_deliver/etc_deliver">
       <image src='../my/images/send-goods.png'></image>
       待发货
     </navigator>
-    <navigator url="#">
+    <navigator url="../etc_deliver/etc_deliver">
       <image src='../my/images/take-goods.png'></image>
       待收货
       <text>61</text>
     </navigator>
-    <navigator url="#">
+    <navigator url="../etc_deliver/etc_deliver">
       <image src='../my/images/ended.png'></image>
       已完成
     </navigator>
@@ -47,15 +47,15 @@
       </a>
     </li>
     <li>
-      <a class="access" href="javascript:;">
-          <view class="cell_primary">
-              <p>
-                <image src='../my/images/my-address.png'></image>
-                地址管理
-                <text class="arrow">></text>
-              </p>
-          </view>
-      </a>
+      <navigator url="../address_sele/address_sele">
+        <view class="cell_primary">
+            <p>
+              <image src='../my/images/my-address.png'></image>
+              地址管理
+              <text class="arrow">></text>
+            </p>
+        </view>
+      </navigator>
     </li>
     <li>
       <navigator url="../phone/bind_phone">

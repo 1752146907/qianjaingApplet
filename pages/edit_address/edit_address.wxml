@@ -1,0 +1,37 @@
+<!--edit_address.wxml-->
+<view class="box">
+  <view class="box_option">
+    <text class="option_name">联系人</text>
+    <input class="enter_val" placeholder="这里是联系人" auto-focus/>
+    <image class="clean" src='images/clean.png'></image>
+  </view>
+  <view class="box_option">
+    <text class="option_name">手机号码</text>
+    <input class="enter_val" placeholder="这里是手机号码" />
+    <image class="clean" src='images/clean.png'></image>
+  </view>
+  <view class="box_option">
+    <text class="option_name">选中地区</text>
+    <input class="enter_val" placeholder="这里是地区" />
+    <image class="clean" src='images/clean.png'></image>
+  </view>
+  <view class="box_option box_textarea">
+    <text class="option_name">详细地址</text>
+    <view class="textarea_val">
+      <textarea class="weui-textarea" placeholder="这里是详细地址" />
+    </view>
+    <image class="clean textarea_clean" src='images/clean.png'></image>
+  </view>
+  <view class="box_option">
+    <text class="option_name">邮政编码</text>
+    <input class="enter_val" placeholder="这里是邮政编码" />
+    <image class="clean" src='images/clean.png'></image>
+  </view>
+</view>
+<view class="confirm">
+  <button type="primary">确认</button>
+</view>
+<view class="confirm">
+  <button type="default">删除地址</button>
+</view>
+

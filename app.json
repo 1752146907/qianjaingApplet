@@ -1,10 +1,15 @@
 {
   "pages": [
+    "pages/order_details/order_details",
+    "pages/my/my",
+    "pages/etc_deliver/etc_deliver",
+    "pages/cart/cart",
+    "pages/address_sele/address_sele",
+    "pages/edit_address/edit_address",
+    "pages/phone/bind_phone",
+    "pages/new_address/new_address",
     "pages/order/order",
     "pages/index/index",
-    "pages/phone/bind_phone",
-    "pages/my/my",
-    "pages/cart/cart",
     "pages/fenlei/fenlei"
   ],
   "window": {

@@ -1,0 +1,45 @@
+<!--address_sele.wxml-->
+<view class="title">
+  <view class="title_box">收货地址</view>
+</view>
+<view class="main">
+  <ul>
+    <li>
+      <view class="li_checked">
+        <checkbox class="checkbox_li" />
+      </view>
+      <view class="li_info">
+        <view class="info_title">
+          <text class="info_name">谭均</text>
+          <text class="info_tel">13800138000</text>
+        </view>
+        <view class="info_text">
+          上海市上海市上海市上海市上海市上海市上海市上海市
+        </view>
+      </view>
+      <navigator url="../edit_address/edit_address">
+        <view class="li_edit">编辑</view>
+      </navigator>
+    </li>
+    <li>
+      <view class="li_checked">
+        <checkbox class="checkbox_li" />
+      </view>
+      <view class="li_info">
+        <view class="info_title">
+          <text class="info_name">谭均</text>
+          <text class="info_tel">13800138000</text>
+        </view>
+        <view class="info_text">
+          上海市上海市上海市上海市上海市上海市上海市上海市
+        </view>
+      </view>
+      <navigator url="../edit_address/edit_address">
+        <view class="li_edit">编辑</view>
+      </navigator>
+    </li>
+  </ul>
+</view>
+<navigator url="../new_address/new_address">
+  <view class="new_add">新增收货地址</view>
+</navigator>
