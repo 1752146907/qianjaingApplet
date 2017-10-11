@@ -1,0 +1,14 @@
+<!--shop-info.wxml-->
+<view class="main">
+  <view class="shop_name">苹果花园</view>
+  <view class="shop_add">上海市徐汇区桂林路588号<text class="lately">最近使用</text></view>
+  <view class="shop_img">
+    <li><image src="../../images/like-product.png"></image></li>
+    <li><image src="../../images/like-product.png"></image></li>
+    <li><image src="../../images/like-product.png"></image></li>
+  </view>
+</view>
+<view class="add">
+  <view class="add_title">苹果花园</view>
+  <view class="add_sub">上海市徐汇区桂林路588号</view>
+</view>

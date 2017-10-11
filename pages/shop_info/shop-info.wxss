@@ -1,0 +1,58 @@
+/* shop-info.wxss */
+page{
+  background: #f0f0f0;
+}
+
+.main{
+  background: #fff;
+  padding: 20rpx;
+  border-top: 1rpx solid #bbbbbb;
+}
+.shop_name{
+  font-size: 32rpx;
+  color: #222222;
+  font-weight: bold;
+}
+.shop_add{
+  font-size: 26rpx;
+  color: #999999;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.main .lately{
+  background: #51b2ff;
+  padding: 4rpx 6rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  float: right;
+  display: inline-block;
+}
+.shop_img{
+  box-sizing: border-box;
+  width: 100%;
+}
+.shop_img li{
+  box-sizing: border-box;
+  width: 33.33%;
+  display: inline-block;
+  padding: 0rpx 6rpx;
+}
+.shop_img li image{
+  width: 100%;
+  height: 216rpx;
+}
+
+.add{
+  margin-top: 20rpx;
+  padding:20rpx;
+  background: #fff;
+}
+.add_title{
+  color: #222222;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.add_sub{
+  font-size: 26rpx;
+  color: #999999;
+}

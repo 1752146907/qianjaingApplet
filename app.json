@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/order_details/order_details",
+    "pages/shop_info/shop-info",
     "pages/my/my",
+    "pages/order_details/order_details",
     "pages/etc_deliver/etc_deliver",
     "pages/cart/cart",
     "pages/address_sele/address_sele",

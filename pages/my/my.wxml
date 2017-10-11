@@ -8,7 +8,7 @@
  <!-- avatar-bg end -->
   <view class='view-order'>
     <text>查看订单</text>
-    <navigator>查看全部 <text>></text></navigator>
+    <navigator url="../etc_deliver/etc_deliver">查看全部 <text>></text></navigator>
   </view>
   <!-- view-order end -->
   <view class='my-counts'>

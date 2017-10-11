@@ -44,7 +44,7 @@ page{
   height: 38rpx;
 }
 .all .wx-checkbox-input-checked{
-  color: none; 
+  color: red; 
   background:url(images/checkbox.png) left top no-repeat;
   background-size: cover;
 }
