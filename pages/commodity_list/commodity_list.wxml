@@ -1,0 +1,44 @@
+<!--commodity_list.wxml-->
+<view class="section">
+  <input placeholder="搜索商品" confirm-type="search" type="text" />
+</view>
+<view class="nav">
+  <ul>
+    <li>销量</li>
+    <li>价格 <image src="images/sort.png"></image></li>
+    <li class="nav_li_act">上架时间</li>
+  </ul>
+</view>
+
+<view class="main-box">
+  <view class='like-cont'>
+    <view class='like-cont-left'>
+      <image src='../../images/like-product.png'></image>
+      <view class='like-left-text'>
+        <text class='like-name'>商品名称</text>
+        <text class='like-desc'>商品描述商品描述商品描述商品描述商品描述商品描述</text>
+        <text class='like-price'>￥198.00</text>
+        <text class='like-evaluate'>1359条评价</text>
+      </view>
+    </view> 
+    <view class='like-cont-right'>
+      <image src='../../images/index-cart.png'></image>
+      <text class="volume">销量：2874件</text>
+    </view>
+  </view>
+  <view class='like-cont'>
+    <view class='like-cont-left'>
+      <image src='../../images/like-product.png'></image>
+      <view class='like-left-text'>
+        <text class='like-name'>商品名称</text>
+        <text class='like-desc'>商品描述商品描述商品描述商品描述商品描述商品描述</text>
+        <text class='like-price'>￥198.00</text>
+        <text class='like-evaluate'>1359条评价</text>
+      </view>
+    </view> 
+    <view class='like-cont-right'>
+      <image src='../../images/index-cart.png'></image>
+      <text class="volume">销量：2874件</text>
+    </view>
+  </view>
+</view>

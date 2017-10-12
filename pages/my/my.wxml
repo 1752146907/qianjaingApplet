@@ -36,15 +36,17 @@
 <view class="option-box">
   <ul>
     <li>
-      <a class="access" href="javascript:;">
-          <view class="cell_primary">
-              <p>
-                <image src='../my/images/my-youhuiquan.png'></image>
-                优惠劵
-                <text class="arrow">></text>
-              </p>
-          </view>
-      </a>
+      <navigator url="../my_coupon/my_coupon">
+        <a class="access" href="javascript:;">
+            <view class="cell_primary">
+                <p>
+                  <image src='../my/images/my-youhuiquan.png'></image>
+                  优惠劵
+                  <text class="arrow">></text>
+                </p>
+            </view>
+        </a>
+      </navigator>
     </li>
     <li>
       <navigator url="../address_sele/address_sele">

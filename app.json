@@ -1,20 +1,21 @@
 {
   "pages": [
+    "pages/my/my",
+    "pages/commodity_list/commodity_list",
+    "pages/index/index",
+    "pages/cart/cart",
     "pages/my_coupon/my_coupon",
     "pages/eceive_coupon/eceive_coupon",
-    "pages/my/my",
     "pages/shop_map/shop_map",
     "pages/shop_detailed/shop_detailed",
     "pages/shop_info/shop-info",
     "pages/order_details/order_details",
     "pages/etc_deliver/etc_deliver",
-    "pages/cart/cart",
     "pages/address_sele/address_sele",
     "pages/edit_address/edit_address",
     "pages/phone/bind_phone",
     "pages/new_address/new_address",
     "pages/order/order",
-    "pages/index/index",
     "pages/fenlei/fenlei"
   ],
   "window": {

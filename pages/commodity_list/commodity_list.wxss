@@ -1,0 +1,124 @@
+/* commodity_list.wxss */
+
+.section{
+  padding: 20rpx;
+  background: #f4f4f4;
+}
+.section input{
+  background: #fff;
+  border: #dddddd 1rpx solid;
+  padding: 0rpx 10rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  color: #666666;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.nav{
+  background: #fff;
+  border-top: 1rpx solid #bbbbbb;
+  border-bottom: 1rpx solid #ddd;
+}
+.nav ul li{
+  color: #666666;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  padding: 30rpx 0rpx;
+}
+.nav ul li image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.nav_li_act{
+  color: #ff4c4c !important;
+  border-bottom: #ff4c4c solid 2rpx;
+}
+
+/* 列表样式 */
+.main-box{
+  padding: 0rpx 20rpx 20rpx 20rpx;
+}
+.like-cont{
+  width: 100%;
+  display: flex;
+  border-bottom:#eee solid 1px;
+  align-items: center;
+}
+.like-cont-left{
+ flex: 2;
+ overflow: hidden;
+ margin:27rpx 0;
+}
+.like-cont-left image{
+  width: 170rpx;
+  height: 180rpx;
+  float:left;
+  margin-right: 20rpx;
+}
+.like-cont{
+  width: 100%;
+  display: flex;
+  border-bottom:#eee solid 1px;
+  align-items: center;
+}
+.like-cont-left{
+ flex: 2;
+ overflow: hidden;
+ margin:27rpx 0;
+}
+.like-cont-left image{
+  width: 180rpx;
+  height: 184rpx;
+  float:left;
+  margin-right: 20rpx;
+}
+.like-left-text text{
+  display: block;
+  font-size: 26rpx;
+  color: #999;
+}
+.like-evaluate{
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.like-left-text .like-name{
+  font-weight: 600;
+  color: #222;
+  font-size: 32rpx;
+  margin-bottom: 12rpx;
+}
+.like-left-text .like-desc{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 28rpx;
+  color: #666666;
+}
+.like-left-text .like-price{
+  color: #ff4c4c;
+  margin-top:33rpx;
+}
+.like-cont-right{
+  flex: 1;
+  position: relative;
+  margin:27rpx 0;
+}
+.like-cont-right image{
+  width: 88rpx;
+  height: 88rpx;
+  text-align: right;
+  margin-right:20rpx;
+  float:right;
+}
+.like-cont-right .volume{
+  position: absolute;
+  right: 20rpx;
+  bottom: -52rpx;
+  font-size:26rpx;
+  color:#999;
+}
