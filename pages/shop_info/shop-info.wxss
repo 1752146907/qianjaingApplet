@@ -20,7 +20,7 @@ page{
   margin-bottom: 20rpx;
 }
 .main .lately{
-  background: #51b2ff;
+  background: linear-gradient(to right, #a8d7fb , #51b2ff);
   padding: 4rpx 6rpx;
   border-radius: 10rpx;
   color: #fff;

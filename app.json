@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/shop_info/shop-info",
     "pages/my/my",
+    "pages/shop_map/shop_map",
+    "pages/shop_detailed/shop_detailed",
+    "pages/shop_info/shop-info",
     "pages/order_details/order_details",
     "pages/etc_deliver/etc_deliver",
     "pages/cart/cart",

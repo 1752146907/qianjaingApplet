@@ -1,0 +1,110 @@
+/* shop_detailed.wxss */
+.shop_name{
+  padding:20rpx;
+  font-size: 44rpx;
+  color: #222222;
+  font-weight: bold;
+  border-top: 1rpx solid #bbbbbb;
+  margin-bottom: 14rpx;
+}
+.member_card{
+  font-size: 27rpx;
+  padding: 0rpx 54rpx;
+  border-bottom: 1rpx solid #b7b7b7;
+}
+.member_title{
+  background: linear-gradient(to right, #d3d3d3, #ffffff, #d3d3d3); 
+  padding: 30rpx 26rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #b7b7b7;
+  border-top: solid 1rpx #b7b7b7;
+}
+.member_title text{
+  float: right;
+  font-size: 24rpx;
+  color: #e03434;
+  box-sizing: border-box;
+  border: solid 1rpx #e03434;
+  padding: 7rpx 22rpx;
+  border-radius: 10rpx;
+}
+/* 选项列表 */
+.option-box{
+  background: #fff;
+  padding: 12rpx 30rpx 0rpx 30rpx;
+  font-size: 28rpx;
+  box-shadow: 0px -2px 2px #b7b7b7;
+}
+.option-box .cell_primary{
+  width: 100%;
+  display: block;
+  position: relative;
+  line-height:42rpx;
+  padding:20rpx 0rpx 10rpx 0rpx;
+}
+.option-box .cell_primary p image{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+  position: relative;
+  top: -3rpx;
+}
+.option-box .cell_primary .arrow{
+  float: right;
+  color:#666;
+}
+.option-box .cell_primary .number{
+  position: absolute;
+  right: 30rpx;
+  color:#666;
+  font-weight: bold;
+}
+/* 门店视频 */
+.shop_data{
+  padding: 20rpx;
+}
+.data_box{
+  border-top: 1rpx dashed  #cdcdcd;
+  margin-top: 20rpx;
+}
+.shop_data_title{
+  padding: 40rpx 0rpx 20rpx 0rpx;
+  font-size: 32rpx;
+}
+.shop_data_title image{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: top;
+}
+.data_info{
+  padding: 0rpx 10rpx;
+  position: relative;
+}
+.audemo_img{
+  width: 68rpx;
+  height: 68rpx;
+  position: absolute;
+  top: 90rpx;
+  right: 40rpx;
+  z-index: 9;
+}
+.data_info video{
+  width: 100%;
+}
+/* 门店照片 */
+.shop_img{
+  box-sizing: border-box;
+  width: 100%;
+}
+.shop_img li{
+  box-sizing: border-box;
+  width: 33.33%;
+  display: inline-block;
+  padding: 0rpx 6rpx;
+}
+.shop_img li image{
+  width: 100%;
+  height: 216rpx;
+}

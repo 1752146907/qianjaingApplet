@@ -1,0 +1,68 @@
+<!--shop_detailed.wxml-->
+<view class="shop_name">苹果花园</view>
+<view class="member_card">
+  <view class="member_title">您有可领取的会员卡<text class="receive">领取</text></view>
+</view>
+<view class="info">
+  <view class="info_option">
+    <view class="option-box">
+      <ul>
+        <li>
+          <a class="access" href="javascript:;">
+              <view class="cell_primary">
+                  <p>
+                    <image src='../../images/add_img02.png'></image>
+                    上海市浦江镇
+                    <text class="arrow">></text>
+                  </p>
+              </view>
+          </a>
+        </li>
+        <li>
+          <navigator url="#">
+            <view class="cell_primary">
+                <p>
+                  <image src='../../images/time.png'></image>
+                  08:00-22:00
+                </p>
+            </view>
+          </navigator>
+        </li>
+        <li>
+          <navigator url="#">
+            <view class="cell_primary">
+                <p>
+                  <image src='../../images/tel.png'></image>
+                  1877645638
+                  <text class="arrow">></text>
+                </p>
+            </view>
+          </navigator>
+        </li>
+      </ul>
+    </view>
+  </view>
+</view>
+<view class="shop_data">
+  <view class="data_box">
+    <view class="shop_data_title">
+      <image src="../../images/video.png"></image> 门店视频
+    </view>
+    <view class="data_info">
+      <image class="audemo_img"  src="../../images/audeo.png"></image>
+      <video autoplay="true" id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    </view>
+  </view>
+  <view class="data_box">
+    <view class="shop_data_title">
+      <image src="../../images/image.png"></image> 门店照片
+    </view>
+    <view class="data_info">
+      <view class="shop_img">
+        <li><image src="../../images/like-product.png"></image></li>
+        <li><image src="../../images/like-product.png"></image></li>
+        <li><image src="../../images/like-product.png"></image></li>
+      </view>
+    </view>
+  </view>
+</view>
