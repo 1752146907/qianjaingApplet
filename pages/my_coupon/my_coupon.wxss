@@ -76,6 +76,11 @@ page{
 }
 .coupon_lef_sub{
   color: #999999;
+}
+.coupon_05 .coupon_lef_sub{
+  margin-top: 14rpx;
+}
+.coupon_06 .coupon_lef_sub{
   margin-top: 14rpx;
 }
 .coupon_right{
