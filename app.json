@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/my_coupon/my_coupon",
+    "pages/eceive_coupon/eceive_coupon",
     "pages/my/my",
     "pages/shop_map/shop_map",
     "pages/shop_detailed/shop_detailed",

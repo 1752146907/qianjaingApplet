@@ -1,0 +1,79 @@
+<!--my_coupon.wxml-->
+<view class="nav">
+  <ul>
+    <li>待使用</li>
+    <li>已过期</li>
+    <li class="nav_li_act">已使用</li>
+  </ul>
+</view>
+<view class="main">
+  <!-- 已使用 -->
+  <view>
+    <view class="coupon_05">
+      <view class="coupon_left">
+        <text>仅供蛋糕产品</text>
+        <view class="coupon_lef_sub">满200可用</view>
+      </view>
+      <view class="coupon_right"><text>¥</text>50</view>
+    </view>
+    <view class="coupon_06">
+      <view class="coupon_left">
+        <text>仅供生鲜产品</text>
+        <view class="coupon_lef_sub">满200可用</view>
+      </view>
+      <view class="coupon_right"><text>¥</text>50</view>
+    </view>
+  </view>
+  <!-- 已过期 -->
+  <view>
+    <view class="coupon_04">
+      <view class="coupon_left">
+        <text>仅供蛋糕产品</text>
+        <view class="coupon_lef_sub">
+          满200可用
+          <view class="coupon_left_time">2017.6.11-2017.8.30 使用</view>
+        </view>
+      </view>
+      <view class="coupon_right"><text>¥</text>50</view>
+    </view>
+    <view class="coupon_04">
+      <view class="coupon_left overdue_left">
+        <text>仅供生鲜产品</text>
+        <view class="coupon_lef_sub">
+          满200可用
+          <view class="coupon_left_time">2017.6.11-2017.8.30 使用</view>
+        </view>
+      </view>
+      <view class="coupon_right"><text>¥</text>50</view>
+    </view>
+  </view>
+  <!-- 待使用 -->
+  <view>
+    <view class="coupon_01">
+      <view class="coupon_left">
+        <text>仅供蛋糕产品</text>
+        <view class="coupon_lef_sub">
+          满200可用
+          <view class="coupon_left_time">2017.6.11-2017.8.30 使用</view>
+        </view>
+      </view>
+      <view class="coupon_right">
+        <text>¥</text>50
+        <view class="coupon_right_use">立即使用</view>
+      </view>
+    </view>
+    <view class="coupon_02">
+      <view class="coupon_left overdue_left">
+        <text>仅供生鲜产品</text>
+        <view class="coupon_lef_sub">
+          满200可用
+          <view class="coupon_left_time">2017.6.11-2017.8.30 使用</view>
+        </view>
+      </view>
+      <view class="coupon_right">
+        <text>¥</text>50
+        <view class="coupon_right_use">立即使用</view>
+      </view>
+    </view>
+  </view>
+</view>

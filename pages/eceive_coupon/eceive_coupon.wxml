@@ -1,0 +1,32 @@
+<!--coupon.wxml-->
+<view class="main">
+  <view class="coupon_01">
+    <view class="coupon_left">
+      <text>仅供蛋糕产品</text>
+      <view class="coupon_lef_sub">满200可用</view>
+    </view>
+    <view class="coupon_right"><text>¥</text>50</view>
+  </view>
+  <view class="coupon_02">
+    <view class="coupon_left">
+      <text>仅供蛋糕产品</text>
+      <view class="coupon_lef_sub">满200可用</view>
+    </view>
+    <view class="coupon_right"><text>¥</text>20</view>
+  </view>
+  <view class="coupon_03">
+    <view class="coupon_left">
+      <text>仅供生鲜产品</text>
+      <view class="coupon_lef_sub">满200可用</view>
+    </view>
+    <view class="coupon_right"><text>¥</text>50</view>
+  </view>
+  <view class="coupon_04">
+    <view class="coupon_left">
+      <text>仅供生鲜产品</text>
+      <view class="coupon_lef_sub">满200可用</view>
+    </view>
+    <view class="coupon_right"><text>¥</text>20</view>
+  </view>
+</view>
+
