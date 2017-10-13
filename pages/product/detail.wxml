@@ -1,0 +1,161 @@
+<!--pages/index/detail.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="title">泰迪熊蛋糕</view>
+<view class="gmxx">我是巧克力味的泰迪熊蛋糕,我是巧克力味的泰迪熊蛋糕,我是巧克力味的泰迪熊蛋糕</view>
+<view class="mar_pic">¥129.00</view>
+
+<view class="margin"></view>
+
+<view class="option-box">
+  <ul>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                运费：<text class="cell_primary_pic">¥129.00</text>
+                <text class="number">库存量200</text>
+              </p>
+          </view>
+      </a>
+    </li>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                促销：<text class="tag">满减</text><text class="tag">包邮</text>
+                <text class="cx">满200减20</text><text class="cx">库存量200</text>
+                <text class="arrow">></text>
+              </p>
+          </view>
+      </a>
+    </li>
+  </ul>
+</view>
+
+<view class="margin"></view>
+
+<view class="opt">
+  <view class="sele">已选：<text class="tag">6.0寸(直径约15cm)</text>
+    <text class="arrow">></text>
+  </view>
+  <view class="cell_primary">
+    <view class="opt_tit">促销：</view>
+    <view class="sep">
+      <text class="tag act">6.0寸(直径约15cm)</text><text class="tag">6.0寸(直径约15cm)</text><text class="tag">6.0寸(直径约15cm)</text>
+    </view>
+  </view>
+  <view class="clear"></view>
+  <view class="opt_num">
+    <view class="sum">数量：</view>
+    <view class="shop-caredit">
+      <a class="shop-carminus min" href="javascript:;">—</a>
+      <input class="text_box" type="text" value=" 2"/>
+      <a class="shop-caradd add" href="javascript:;">+</a>
+    </view>
+    <view class="clear"></view>
+
+
+
+  </view>
+</view>
+
+<view class="margin"></view>
+
+<!-- 地址 -->
+<view class="option-box">
+  <ul>
+    <li>
+      <a class="access" href="javascript:;">
+          <view class="cell_primary">
+              <p>
+                地址：<text class="cx">湖北省 武汉市 洪山区城区 南湖大道77号</text>
+                <text class="arrow">></text>
+              </p>
+          </view>
+      </a>
+    </li>
+  </ul>
+</view>
+
+<view class="margin"></view>
+
+<!-- 评价 -->
+<view class="eva">
+  <view class="option-box">
+    <ul>
+      <li>
+        <a class="access" href="javascript:;">
+            <view class="cell_primary">
+              <p>
+                评价：<text class="zx">综合评分</text><text class="cell_primary_pic">6.8</text>
+                <text class="arrow">查看全部31条评价></text>
+              </p>
+            </view>
+        </a>
+      </li>
+    </ul>
+    <view class="add_main">
+      <view class="user">
+        <view class="use_img">
+          <image src="../../images/like-product.png"></image>
+        </view>
+        <view class="use_pho">13800138000</view>
+      </view>
+      <view class="add_tex">快递小哥特用心，蛋糕一点页没坏，跟图片一样一样的，棒棒哒！</view>
+      <view class="print">
+        <ul>
+          <li><image src="../../images/like-product.png"></image></li>
+          <li><image src="../../images/like-product.png"></image></li>
+          <li><image src="../../images/like-product.png"></image></li>
+        </ul>
+      </view>
+      <view class="eva_titme">2017-06-29 14:48:56</view>
+    </view>
+  </view>
+</view>
+
+<view class="margin"></view>
+
+<view class="nav">
+  <ul>
+    <li class="nav_li_act">图文详情</li>
+    <li>评价</li>
+    <li>参数</li>
+  </ul>
+</view>
+<view class="tw">
+  <view class="tw_img">
+    <image src="../../images/like-product.png"></image>
+    <image src="../../images/detail.png"></image>
+    <image src="../../images/banner1.png"></image>
+  </view>
+</view>
+
+<view class="bot">
+  <view class="bot_main">
+    <view class="index">
+      <view>
+        <image src="../../images/index.png"></image>
+      </view>
+      首页
+    </view>
+    <view class="cart">
+      <view>
+        <image src="../../images/cart.png"></image>
+      </view>
+      购物车
+    </view>
+    <view class="go_cart">加入购物车</view>
+    <view class="go_shop">立即购买</view>
+  </view>
+</view>
+
+

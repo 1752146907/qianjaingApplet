@@ -1,0 +1,300 @@
+/* pages/index/detail.wxss */
+page{
+  margin-bottom: 97rpx;
+}
+swiper{
+  height: 600rpx !important;
+}
+.margin{
+  height: 20rpx;
+  background: #f0f0f0;
+}
+.clear{
+  clear:both;
+}
+
+.title{
+  font-size: 36rpx;
+  color: #222222;
+  padding: 20rpx 20rpx 10rpx 20rpx;
+  border-top: 1rpx solid #bbbbbb;
+}
+.gmxx{
+  font-size: 28rpx;
+  color: #999999;
+  padding: 0rpx 20rpx;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.mar_pic{
+  color: #ff4c4c;
+  font-size: 44rpx;
+  padding: 10rpx 20rpx 20rpx 20rpx;
+}
+
+/* 选项列表 */
+.option-box{
+  padding:0rpx 30rpx 0rpx 30rpx;
+  font-size: 28rpx;
+}
+.option-box .cell_primary{
+  width: 100%;
+  display: block;
+  position: relative;
+  line-height:42rpx;
+  padding:20rpx 0rpx 20rpx 0rpx;
+  border-bottom:1px solid #eeeeee;
+}
+.cell_primary_pic{
+  color: #ff4c4c;
+}
+.option-box .cell_primary .arrow{
+  float: right;
+  color:#999999;
+}
+.option-box .cell_primary .number{
+  position: absolute;
+  right: 30rpx;
+  color:#999999;
+  font-size: 24rpx;
+}
+.option-box .cell_primary .tag{
+  color: #ff4c4c;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  margin-right: 6rpx;
+  padding: 3rpx;
+  border-radius: 6rpx;
+  border: 1rpx solid #ff4c4c;
+}
+.option-box .cell_primary .cx{
+  color:#999999;
+  margin-right: 10rpx;
+  font-size: 24rpx;
+}
+.option-box .cell_primary .zx{
+  font-size: 28rpx;
+  margin-right: 4rpx;
+}
+
+.opt{
+  padding: 20rpx;
+  font-size:28rpx;
+}
+.opt .sele{
+  border-bottom: 1rpx solid #f0f0f0;
+  position: relative;
+  padding-bottom: 20rpx;
+}
+.set .tag{
+  font-size: 32rpx;
+}
+.opt .arrow{
+  float: right;
+  color: #999;
+  font-size:24rpx;
+}
+.opt .cell_primary{
+  font-size: 24rpx;
+  color: #999999;
+  padding: 10rpx 0rpx;
+}
+.opt_tit{
+  float: left;
+  line-height: 40rpx;
+}
+.opt .sep{
+  float: left;
+  width: 86%;
+}
+.opt .cell_primary .tag{
+  color: #222222;
+  font-size: 24rpx;
+  background: #eeeeee;
+  padding: 14rpx 34rpx;
+  margin-right: 20rpx;
+  margin-bottom: 10rpx;
+  display: inline-block;
+  border-radius: 10rpx;
+}
+.opt .cell_primary .act{
+  background: #ff4c4c;
+  color: #fff;
+}
+.opt_num{
+  font-size:24rpx;
+  color:#999999;
+  margin-top: 20rpx;
+}
+.opt_num .sum{
+  float: left;
+  line-height: 56rpx;
+}
+/* 加减 */
+.shop-caredit{
+  float: left;
+  border: 0.026667rem solid #ddd;
+  border-radius: 0.053333rem;
+  width: 158rpx;
+  height: 52.5rpx;
+  line-height: 13rpx;
+}
+.shop-caredit input{
+  border: 0;
+  border-left: 0.026667rem solid #ddd;
+  border-right: 0.026667rem solid #ddd;
+  height: 44.5rpx !important;
+  float: left;
+  width: 60rpx;
+  color: #aaa;
+  padding-left:10rpx;
+  font-size: 30rpx;
+}
+.shop-caredit a{
+  float: left;
+  text-align: center;
+  width: 44rpx;
+  color: #ddd;
+  line-height: 56rpx;
+}
+.shop-caredit .shop-carminus{
+  font-size: 0.366667rem;
+}
+.shop-caredit .shop-caradd{
+  font-size:38rpx;
+}
+/* 地址 */
+.add{
+  box-sizing: border-box;
+  padding: 0rpx 10rpx;
+}
+
+/* 评价 */
+.add_main{
+  padding: 20rpx 0rpx;
+}
+.add_main .user{
+  position: relative;
+  height: 48rpx;
+}
+.add_main .user .use_img{
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+.add_main .user .use_img image{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+}
+.add_main .user .use_pho{
+  position: absolute;
+  top: 8rpx;
+  left: 52rpx;
+  right: 0rpx;
+}
+.add_main .add_tex{
+  line-height: 32rpx;
+  font-size: 28rpx;
+  color: #222;
+}
+.add_main .print{
+  width: 380rpx;
+  margin: 10rpx 0rpx;
+}
+.add_main .print li{
+  margin-right: 10rpx;
+}
+.add_main .print li image{
+  width: 96rpx;
+  height: 96rpx;
+}
+.eva_titme{
+  color: #bbbbbb;
+  font-size: 24rpx;
+}
+/* 图文 */
+.nav{
+}
+.nav ul li{
+  color: #666666;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  padding: 30rpx 0rpx;
+}
+.nav_li_act{
+  color: #ff4c4c !important;
+  border-bottom: #ff4c4c solid 2rpx;
+}
+.tw{
+  padding: 20rpx;
+}
+.tw_img image{
+  width: 100%;
+}
+/* 底部结算 */
+.bot{
+  position: fixed;
+  left: 0rpx;
+  bottom: 0rpx;
+  height: 97rpx;
+  width: 100%;
+  background: #fff;
+  border-top: 1rpx solid #dddddd;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 12rpx;
+}
+.bot_main{
+  position: relative;
+}
+.bot_main .index{
+  position: absolute;
+  left: 0rpx;
+  width: 100rpx;
+  color: #666666;
+  font-size: 24rpx;
+}
+.bot_main .index image{
+  width: 46rpx;
+  height: 44rpx;
+}
+.bot_main .cart{
+  position: absolute;
+  left: 100rpx;
+  width: 130rpx;
+  color: #666666;
+  font-size: 24rpx;
+}
+.bot_main .cart image{
+  width: 46rpx;
+  height: 44rpx;
+}
+.bot_main .go_cart{
+  position: absolute;
+  left: 240rpx;
+  top: -12rpx;
+  width: 260rpx;
+  height: 97rpx;
+  font-size: 34rpx;
+  color: #fff;
+  line-height: 98rpx;
+  background: linear-gradient(to right, #ffd74c , #ffa632);
+}
+.bot_main .go_shop{
+  position: absolute;
+  right: 0rpx;
+  left: 499rpx;
+  top: -12rpx;
+  font-size: 34rpx;
+  color: #fff;
+  line-height: 98rpx;
+  height: 97rpx;
+  background: linear-gradient(to right, #ff9638 , #ff4c4c);
+}
