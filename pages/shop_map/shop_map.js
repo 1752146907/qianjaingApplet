@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    markers: [{
+      id: 0,
+      latitude: 31.1712809350,
+      longitude: 121.4103788137,
+      width: 50,
+      height: 50
+    }],
   },
 
   /**

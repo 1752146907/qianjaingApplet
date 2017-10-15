@@ -1,13 +1,13 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/shop_map/shop_map",
     "pages/product/detail",
     "pages/my/my",
     "pages/commodity_list/commodity_list",
-    "pages/index/index",
     "pages/cart/cart",
     "pages/my_coupon/my_coupon",
     "pages/eceive_coupon/eceive_coupon",
-    "pages/shop_map/shop_map",
     "pages/shop_detailed/shop_detailed",
     "pages/shop_info/shop-info",
     "pages/order_details/order_details",
